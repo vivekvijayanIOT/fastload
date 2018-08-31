@@ -49,14 +49,14 @@ class node:
 			self.times=times
 			if(n>=80):
 				break
-		self.charge=self.charge+n
+		self.charge=self.charge+n-5
 		
 		print("\t\t************ 80% Charging completed*************")
 
 	def show(self):
 		u="Unknown -Not yet visited"
 		if(self.check==1):
-			c=str(self.charge)+"%"
+			c=str(round((self.charge))+"%"
 			return c
 		else:
 			return u
@@ -231,7 +231,7 @@ def leftcheck():
 N1,N2,N3,N4,N5=node(charg[1],20,60),node(charg[2],70,10),node(charg[3],60,80),node(charg[4],100,90),node(charg[5],40,120)
 N6,N7,N8,N9,N10=node(charg[6],50,110),node(charg[7],30,170),node(charg[8],90,20),node(charg[9],20,190),node(charg[10],190,190)
 N11,N12,N13,N14,N15=node(charg[11],200,130),node(charg[12],150,60),node(charg[13],120,40),node(charg[14],160,180),node(charg[15],190,30)
-N16,N17,N18,N19,N20=node(charg[16],110,160),node(charg[17],130,50),node(charg[18],140,100),node(charg[19],180,150),node(charg[20],0,0)
+N16,N17,N18,N19,N20=node(charg[16],110,160),node(charg[17],130,50),node(charg[18],130,100),node(charg[19],150,150),node(charg[20],0,0)
 #endnode 
 N21=node(200,200,200)
 
