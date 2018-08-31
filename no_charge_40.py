@@ -347,11 +347,11 @@ def leftcheck():
 
 xp=[]
 yp=[]
-for a in range(0,40):
+'''for a in range(0,40):
 	xp.append(int(input('Enter the X-axis value for NODE - %d : '%a)))
 	yp.append(int(input('Enter the Y-axis value for NODE - %d : '%a)))
 
-
+'''
 
 
 # Node declaration
