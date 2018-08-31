@@ -56,7 +56,7 @@ class node:
 	def show(self):
 		u="Unknown -Not yet visited"
 		if(self.check==1):
-			c=str(round((self.charge))+"%"
+			c=str(round((self.charge)))+"%"
 			return c
 		else:
 			return u
